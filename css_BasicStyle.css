@@ -54,7 +54,7 @@ h2{margin-left: 40px;}
 .text-center{text-align: center; }
 .text-right{text-align: right; }
 
-.op-section{padding-top: 61px; }
+/*.op-section{padding-top: 61px; }*/
 
 /*nav*/
 .nav{
@@ -84,9 +84,7 @@ h2{margin-left: 40px;}
 	width: 120px;
 	line-height: 60px;
 }
-.nav-ul a{
-	color: #ffffff;
-}
+.nav-ul a{color: #ffffff; }
 
 /*section1*/
 .first{
@@ -154,7 +152,8 @@ h2{margin-left: 40px;}
 	background-size: 100% 100%;
 }
 .section3-navtabs{
-	margin-top: 30px;
+	/*margin-top: 30px;*/
+	padding-top: 30px;
 	margin-left: auto;
 	margin-right: auto;
 	width: 600px;
@@ -169,14 +168,19 @@ h2{margin-left: 40px;}
 	font-size: 18px;
 	line-height: 50px;
 	transition: all 0.4s;
+	color: #666;
 }
-.section3-navtabs li:hover{background-color: #badae5; }
+.section3-navtabs li:hover{
+	background-color: #badae5; 
+	color: #fff;
+}
 .section3-navtabs li a{color: #ffffff; }
 .section3-navtabs li a:visited{text-decoration: none; }
 .section3-navtabs li a:hover{text-decoration: none; }
 .section3-navtabs li a:link{text-decoration: none; }
 .section3-navtabs li a:actived{text-decoration: none; }
 .section3-tabcontent{
+	padding-top: 50px;
 	margin-left: auto;
 	margin-right: auto;
 	width: 1200px;
